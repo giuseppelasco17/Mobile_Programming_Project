@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Runner 1</string>
+    <string name="title_activity_main">log_in</string>
+    <string name="nome">Nome: </string>
+    <string name="textview">TextView</string>
+    <string name="sesso">Sesso: </string>
+    <string name="nazionalit">Nazionalità: </string>
+    <string name="data_di_nascita">Data di nascita: </string>
+    <string name="scadenza_carta">Scadenza carta: </string>
+    <string name="no_carta">No. Carta: </string>
+    <string name="scadenza_certificato">Scadenza certificato: </string>
+    <string name="e_mail">E-mail:</string>
+    <string name="profile_image">profile_image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="log_img">log_img</string>
+    <string name="elenco_soci">ELENCO SOCI</string>
+    <string name="prossime_gare">PROSSIME GARE</string>
+    <string name="risultati">RISULTATI</string>
+    <string name="todo">TODO</string>
+    <string name="bentornato">Bentornato</string>
+    <string name="search">Search</string>
+</resources>

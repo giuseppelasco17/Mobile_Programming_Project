@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="5dip"
+        android:padding="3dip">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="220dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:textAlignment="textStart"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="144dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name_tv"
+        android:layout_marginTop="71dp"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/name_tv"
+        android:layout_below="@+id/name_tv"
+        android:text="@string/data_di_nascita"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/sex_iv"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/date_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginEnd="14dp"
+        app:srcCompat="@drawable/ic_immagine2"
+        android:contentDescription="@string/todo" />
+
+
+</RelativeLayout>
